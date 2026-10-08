@@ -1,0 +1,80 @@
+{
+  "audited_at": "2026-10-08T04:36:31.978072+00:00",
+  "registered_evaluations": 849,
+  "triggered_followups": 6,
+  "independent_outcomes": {
+    "G": "G2",
+    "J": "J1",
+    "K": "K2"
+  },
+  "negative_work_cases": [
+    "A-f1/2|Hydrus I|Plummer|eps=0|l0=10",
+    "A-f1/2|Hydrus I|Tapered cusp|eps=0|l0=10"
+  ],
+  "J_lengths_pc": {
+    "A-f1/2": [
+      0.3,
+      1.0,
+      3.0,
+      10.0
+    ],
+    "A-f2": [
+      1.0,
+      3.0,
+      10.0
+    ],
+    "A-Qs": [
+      1.0,
+      3.0,
+      10.0
+    ],
+    "A-Qd": [
+      1.0,
+      3.0,
+      10.0
+    ]
+  },
+  "K_negative_flags": {
+    "1.0": {
+      "0.01": false,
+      "0.03": false,
+      "0.1": false,
+      "0.3": false
+    },
+    "3.0": {
+      "0.01": true,
+      "0.03": false,
+      "0.1": false,
+      "0.3": false
+    },
+    "10.0": {
+      "0.01": true,
+      "0.03": true,
+      "0.1": true,
+      "0.3": true
+    }
+  },
+  "followup_virials": {
+    "smoke": {
+      "A-f1/2|Hydrus I|Plummer|eps=0|l0=10": -8.100850264335568,
+      "A-f1/2|Hydrus I|Tapered cusp|eps=0|l0=10": -6.1045417912736415
+    },
+    "default": {
+      "A-f1/2|Hydrus I|Plummer|eps=0|l0=10": -8.100853194479088,
+      "A-f1/2|Hydrus I|Tapered cusp|eps=0|l0=10": -6.1045429096036266
+    },
+    "refined": {
+      "A-f1/2|Hydrus I|Plummer|eps=0|l0=10": -8.100853299528245,
+      "A-f1/2|Hydrus I|Tapered cusp|eps=0|l0=10": -6.104543150822976
+    }
+  },
+  "gate_R": {
+    "passed": true,
+    "max_rel_diff_virial": 1.209428877047003e-07,
+    "max_rel_diff_min_sigma2": 1.1087361757589065e-06,
+    "missing": [],
+    "invalid": [],
+    "tol_virial": 1e-05,
+    "tol_min_sigma2": 0.001
+  }
+}
