@@ -6,6 +6,15 @@ This reproduces the numerical calculations reported in
 `UDCT_v7_10_Postregistration_Results_and_Interpretation_2026-10-08.pdf`.
 The theory under test is the specified GQUMOND example implementation, not a newly validated UDCT gravitational theory.
 
+## Publication and preregistration
+
+- v7.10 post-registration results (specific version DOI): https://doi.org/10.5281/zenodo.23233837
+- Post-registration GitHub repository: https://github.com/wspaik5/UDCT_v7.10_Postregistration_Results
+- v7.10 preregistration DOI: https://doi.org/10.5281/zenodo.23200693
+- Preregistration GitHub repository: https://github.com/wspaik5/UDCT_v7.10_Preregistration_GQUMOND_Sensitivity
+
+The v7.10 preregistration defines this sensitivity study; the v7.09 implementation and previously reported results provide its baseline.
+
 ## Files
 
 - `UDCT_v7_10_Postregistration_run.py`: the executed, pre-execution amended v7.10 runner, renamed for convenient distribution. Its bytes are unchanged.
@@ -130,10 +139,10 @@ Execution start: 2026-10-08 04:34:57.757663 UTC, or 17:34:57 Auckland. Numerical
 
 ## Records
 
-- Reviewed v7.10 preregistration: original draft 4 October 2026, reviewed 5 October 2026.
+- Reviewed v7.10 preregistration: original draft 4 October 2026, reviewed 5 October 2026. DOI: https://doi.org/10.5281/zenodo.23200693
 - v7.09 post-registration: https://doi.org/10.5281/zenodo.23130843
 - v7.09 preregistration: https://doi.org/10.5281/zenodo.23120660
 - v7.08 prior-art correction: https://doi.org/10.5281/zenodo.23117541
 - v7.06 sign audit: https://doi.org/10.5281/zenodo.23039754
 
-No unverified v7.10 DOI or repository URL is assigned in this README.
+Documentation update, 8 October 2026: added the published v7.10 post-registration DOI, preregistration DOI and both GitHub repository links. Code, numerical outputs and scientific conclusions are unchanged.
